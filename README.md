@@ -2,7 +2,7 @@
 
 ```js
 const { Client, Intents } = require("discord.js-selfbot-v13");
-const client = new Client({ checkUpdate: false }); // Disable update checks for selfbots
+const client = new Client(); // Disable update checks for selfbots
 
 // Login with your token
 const token = "YOUR_DISCORD_TOKEN"; // Replace with your token
